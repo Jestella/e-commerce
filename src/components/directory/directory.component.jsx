@@ -20,7 +20,7 @@ class Directory extends React.Component {
           title: "MENS",
           subtitle: "SHOP NOW",
           imageUrl:
-            "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "https://images.pexels.com/photos/6198357/pexels-photo-6198357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           id: 2,
           linkUrl: "",
         },
@@ -33,15 +33,15 @@ class Directory extends React.Component {
           linkUrl: "",
         },
         {
-          title: "LIFESTYLE",
+          title: "BEAUTY",
           subtitle: "SHOP NOW",
           imageUrl:
-            "https://images.pexels.com/photos/6198357/pexels-photo-6198357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           id: 4,
           linkUrl: "",
         },
         {
-          title: "BEAUTY",
+          title: "LIFESTYLE",
           subtitle: "SHOP NOW",
           imageUrl:
             "https://images.pexels.com/photos/1665722/pexels-photo-1665722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
