@@ -15,7 +15,9 @@ const config = {
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
+  // fireore returns two types of objects: ref and snapshots
   const userRef = firestore.doc(`users/${userAuth.uid}`);
+  // to figure out if whether or not there is data
   const snapShot = await userRef.get();
 
   if (!snapShot.exists) {

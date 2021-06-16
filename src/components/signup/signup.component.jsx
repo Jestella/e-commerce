@@ -1,8 +1,9 @@
 import React from "react";
-import "./signup.styles.scss";
 import FormInput from "../form-input/form-input.component";
-import CustomButton from "../custom-button/custom-button.component";
+import CustomButton from "../button/button.component";
 import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
+
+import "./signup.styles.scss";
 
 class SignUp extends React.Component {
   constructor() {
@@ -16,13 +17,13 @@ class SignUp extends React.Component {
     };
   }
 
-  handleChange = async (event) => {
+  handleSubmit = async (event) => {
     event.preventDefault();
 
     const { displayName, email, password, confirmPassword } = this.state;
 
     if (password !== confirmPassword) {
-      alert("Passwords don't match");
+      alert("Please try again!");
       return;
     }
 
@@ -55,8 +56,7 @@ class SignUp extends React.Component {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
       <div className="signup">
-        <h2 className="title">I do not have an accout</h2>
-        <span>Sign up with your email and password</span>
+        <h2 className="title">Create an account</h2>
         <form className="signup_form" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
