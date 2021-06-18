@@ -1,9 +1,8 @@
 .custom_button {
-  min-width: 130px;
+  min-width: 150px;
   width: auto;
-  height: 50px;
-  letter-spacing: 0.5px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   padding: 0 20px;
   font-size: 13px;
   background-color: #000;
@@ -15,9 +14,7 @@
   justify-content: center;
 
   &:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
+    background-color: #393e46;
   }
 
   &.google_sign_in {
@@ -26,18 +23,17 @@
 
     &:hover {
       background-color: #185adb;
-      border: none;
     }
   }
 
   &.inverted {
     background-color: inherit;
-    color: #fff;
-    border: 1px solid #fff;
-  }
+    color: #000;
+    border: 1px solid #000;
 
-  &:hover {
-    background-color: #000;
-    border: none;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
   }
 }

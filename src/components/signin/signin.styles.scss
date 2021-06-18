@@ -3,12 +3,22 @@
   display: flex;
   flex-direction: column;
 
-  .title {
-    margin: 10px 0;
+  .title,
+  .button_top {
+    margin: 20px 0;
+    text-align: center;
   }
 
   .buttons {
     display: flex;
     justify-content: space-between;
+  }
+
+  .google_logo {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    padding: 2px;
+    margin: 10px 10px auto auto;
   }
 }

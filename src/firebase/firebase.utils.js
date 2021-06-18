@@ -12,10 +12,10 @@ const config = {
   measurementId: "G-44N6V5R025",
 };
 
-export const createUserProfileDocument = async (userAuth, additionalData) => {
+export const createUserInfo = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
-  // fireore returns two types of objects: ref and snapshots
+  // firestore returns two types of objects: ref and snapshots
   const userRef = firestore.doc(`users/${userAuth.uid}`);
   // to figure out if whether or not there is data
   const snapShot = await userRef.get();
@@ -32,7 +32,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
         ...additionalData,
       });
     } catch (error) {
-      console.log("error creating user", error.message);
+      console.log("Error!", error.message);
     }
   }
 

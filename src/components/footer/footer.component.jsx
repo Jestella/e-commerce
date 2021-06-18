@@ -5,7 +5,7 @@ const Footer = () => (
   <div className="footer">
     <div className="footer_content">
       <span>TERMS AND CONDITIONS</span>
-      <span>2021 © Stella Lee </span>
+      <span>© Stella Lee {new Date().getFullYear()}</span>
     </div>
   </div>
 );

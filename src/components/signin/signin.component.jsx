@@ -2,6 +2,7 @@ import React from "react";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../button/button.component";
 import { auth, signInWithGoogle } from "../../firebase/firebase.utils.js";
+import { ReactComponent as GoogleLogo } from "../../assets/google_logo.svg";
 
 import "./signin.styles.scss";
 
@@ -15,13 +16,13 @@ class SignIn extends React.Component {
     };
   }
 
-  handleSubmit = async (event) => {
+  handleSubmit = (event) => {
     event.preventDefault();
 
     const { email, password } = this.state;
 
     try {
-      await auth.signInWithEmailAndPassword(email, password);
+      auth.signInWithEmailAndPassword(email, password);
       this.setState({ email: "", password: "" });
     } catch (error) {
       console.log(error);
@@ -37,13 +38,13 @@ class SignIn extends React.Component {
   render() {
     return (
       <div className="signin">
-        <h2>Sign-In</h2>
+        <h2 className="title">Login</h2>
         <form onSubmit={this.handleSubmit}>
           <FormInput
             name="email"
             value={this.state.email}
             handleChange={this.handleChange}
-            label="email"
+            label="Email"
             required
           />
           <FormInput
@@ -51,9 +52,10 @@ class SignIn extends React.Component {
             type="password"
             value={this.state.password}
             handleChange={this.handleChange}
-            label="password"
+            label="Password"
             required
           />
+          <p className="button_top">Forgot your password? </p>
           <div className="buttons">
             <CustomButton type="submit"> Sign in</CustomButton>
             <CustomButton
@@ -61,6 +63,9 @@ class SignIn extends React.Component {
               onClick={signInWithGoogle}
               isGoogleSignIn
             >
+              <div className="google_logo_container">
+                <GoogleLogo className="google_logo" />
+              </div>
               Sign in with Google
             </CustomButton>
           </div>
