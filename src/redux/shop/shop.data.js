@@ -6,57 +6,83 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-        price: 25,
+        brand: "Brand Name",
+        name: "Product A",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211901F095155_1/shushu-tong-ssense-exclusive-black-raw-edge-cardigan.jpg",
+        price: 50,
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-        price: 18,
+        brand: "Brand Name",
+        name: "Product B",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212376F109017_1/burberry-white-mythical-alphabet-silk-logo-shirt.jpg",
+        price: 65,
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        price: 35,
+        brand: "Brand Name",
+        name: "Product C",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211482F095005_1/ami-alexandre-mattiussi-grey-ami-de-coeur-cardigan.jpg",
+        price: 38,
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
-        price: 25,
+        brand: "Brand Name",
+        name: "Product D",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211553F057002_1/jacquemus-off-white-la-veste-dhomme-blazer.jpg",
+        price: 80,
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18,
+        brand: "Brand Name",
+        name: "Product E",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211327F110037_1/we11done-black-logo-t-shirt.jpg",
+        price: 67,
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14,
+        brand: "Brand Name",
+        name: "Product F",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211327F098001_1/we11done-white-front-logo-sweatshirt.jpg",
+        price: 63,
       },
       {
         id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-        price: 18,
+        brand: "Brand Name",
+        name: "Product G",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211695F110019_1/palm-angels-black-bear-t-shirt.jpg",
+        price: 55,
       },
       {
         id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14,
+        brand: "Brand Name",
+        name: "Product H",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211695F110001_1/palm-angels-black-classic-logo-long-sleeve-t-shirt.jpg",
+        price: 84,
       },
       {
         id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16,
+        brand: "Brand Name",
+        name: "Product I",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211669F110019_1/vetements-black-logo-patch-t-shirt.jpg",
+        price: 75,
+      },
+      {
+        id: 10,
+        brand: "Brand Name",
+        name: "Product J",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211187F110185_1/alexander-wang-pink-puff-logo-long-sleeve-t-shirt.jpg",
+        price: 23,
       },
     ],
   },
@@ -66,52 +92,36 @@ const SHOP_DATA = {
     routeName: "mens",
     items: [
       {
-        id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-        price: 220,
-      },
-      {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-        price: 280,
+        brand: "Brand Name",
+        name: "Product A",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212376M192001_1/burberry-white-mythical-alphabet-exploded-tb-motif-shirt.jpg",
+        price: 53,
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
-        price: 110,
+        brand: "Brand Name",
+        name: "Product B",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211381M200200_1/thom-browne-white-linen-and-cotton-short-sleeve-shirt.jpg",
+        price: 95,
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-        price: 160,
+        brand: "Brand Name",
+        name: "Product C",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212076M180002_1/tom-ford-black-double-breasted-peacoat.jpg",
+        price: 112,
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-        price: 160,
-      },
-      {
-        id: 15,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-        price: 160,
-      },
-      {
-        id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-        price: 190,
-      },
-      {
-        id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        price: 200,
+        brand: "Brand Name",
+        name: "Product D",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211530M180004_1/saul-nash-grey-printed-flip-side-jacket.jpg",
+        price: 86,
       },
     ],
   },
@@ -121,34 +131,44 @@ const SHOP_DATA = {
     routeName: "home",
     items: [
       {
+        id: 15,
+        brand: "Brand Name",
+        name: "Product A",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212376M150001_1/burberry-black-mythical-alphabet-tb-football-scarf.jpg",
+        price: 192,
+      },
+      {
+        id: 16,
+        brand: "Brand Name",
+        name: "Product B",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212730M163000_1/bao-bao-issey-miyake-black-matte-oyster-card-holder.jpg",
+        price: 35,
+      },
+      {
+        id: 17,
+        brand: "Brand Name",
+        name: "Product C",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212798M172023_1/bottega-veneta-yellow-intertwined-keychain.jpg",
+        price: 72,
+      },
+      {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125,
+        brand: "Brand Name",
+        name: "Product D",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212798M172024_1/bottega-veneta-green-intertwined-keychain.jpg",
+        price: 56,
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90,
-      },
-      {
-        id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90,
-      },
-      {
-        id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165,
-      },
-      {
-        id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185,
+        brand: "Brand Name",
+        name: "Product E",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211553M148006_1/jacquemus-brown-le-porte-cles-tournevis-keychain.jpg",
+        price: 99,
       },
     ],
   },
@@ -158,46 +178,20 @@ const SHOP_DATA = {
     routeName: "beauty",
     items: [
       {
-        id: 23,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
-        price: 25,
+        id: 20,
+        brand: "Brand Name",
+        name: "Product A",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211693M142018_1/fendi-blue-and-brown-beaded-forever-fendi-bracelet.jpg",
+        price: 99,
       },
       {
-        id: 24,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-        price: 20,
-      },
-      {
-        id: 25,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-        price: 80,
-      },
-      {
-        id: 26,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-        price: 80,
-      },
-      {
-        id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        price: 45,
-      },
-      {
-        id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        price: 135,
-      },
-      {
-        id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-        price: 20,
+        id: 21,
+        brand: "Brand Name",
+        name: "Product B",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/212503M147009_1/dear-letterman-gold-the-ahdeem-ring.jpg",
+        price: 67,
       },
     ],
   },
@@ -207,40 +201,41 @@ const SHOP_DATA = {
     routeName: "ligestyle",
     items: [
       {
-        id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325,
+        id: 22,
+        brand: "Brand Name",
+        name: "Product A",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211376M159180_1/burberry-black-tb-trafalgar-umbrella.jpg",
+        price: 55,
       },
       {
-        id: 31,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20,
+        id: 23,
+        brand: "Brand Name",
+        name: "Product A",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211376M159179_1/burberry-beige-check-trafalgar-umbrella.jpg",
+        price: 55,
       },
       {
-        id: 32,
+        id: 24,
         name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-        price: 25,
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211259M159506_1/alexander-mcqueen-black-and-gold-skull-folded-umbrella.jpg",
+        price: 125,
       },
       {
-        id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25,
+        id: 25,
+        name: "Black & White Longsleeve",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211259M159507_1/alexander-mcqueen-black-and-silver-skull-folded-umbrella.jpg",
+        price: 125,
       },
       {
-        id: 34,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40,
-      },
-      {
-        id: 35,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25,
+        id: 26,
+        name: "Black & White Longsleeve",
+        imageUrl:
+          "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211376M159181_1/burberry-beige-check-walking-umbrella.jpg",
+        price: 105,
       },
     ],
   },
