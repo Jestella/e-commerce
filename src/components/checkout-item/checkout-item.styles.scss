@@ -9,7 +9,7 @@
 
   .image_container {
     width: 23%;
-    padding-right: 15px;
+    padding-right: 25px;
 
     img {
       width: 100%;
@@ -22,16 +22,8 @@
     width: 23%;
   }
 
-  .quantity {
-    display: flex;
-
-    .arrow {
-      cursor: pointer;
-    }
-
-    .value {
-      margin: 0 10px;
-    }
+  .value {
+    margin: 0 10px;
   }
 
   .remove_button {
