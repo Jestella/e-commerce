@@ -16,19 +16,18 @@ import "./header.styles.scss";
 
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
-    <div className="logo_container">
-      <Link to="/">
+    <Link className="logo_container" to="/">
         <Logo className="logo" />
       </Link>
-    </div>
     <div className="options">
+  
       {currentUser ? (
         <div className="option" onClick={() => auth.signOut()}>
-          <LogoutIcon className="login_icon" />
+          <LogoutIcon className="logout_icon" />
         </div>
       ) : (
         <Link className="option" to="/login">
-          <LoginIcon className="logout_icon" />
+          <LoginIcon className="login_icon" />
         </Link>
       )}
       <CartIcon />
