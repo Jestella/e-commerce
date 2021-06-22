@@ -21,7 +21,20 @@ I wanted to learn and practice React by building a big application that has logi
 # Demo
 ##### Live Demo : https://jestella.github.io/e-commerce/ 
 
-<img width="1350" alt="Screen Shot 2021-04-23 at 12 35 41 AM" src="https://user-images.githubusercontent.com/31642902/115822821-2dfe4e80-a3d3-11eb-8de7-f8489ebb2bb8.png">
+### 1. Home
+<img width="1328" alt="e-commerce_1" src="https://user-images.githubusercontent.com/31642902/123004421-92616e00-d382-11eb-9af2-10674910ab7e.png">
+
+### 2. Shop page
+<img width="1384" alt="e-commerce_3" src="https://user-images.githubusercontent.com/31642902/123004445-98efe580-d382-11eb-9d4b-5b954c708aed.png">
+
+### 3. Add to cart
+<img width="1382" alt="e-commerce_4" src="https://user-images.githubusercontent.com/31642902/123004452-9c836c80-d382-11eb-8767-389694e711d2.png">
+
+### 4. Payment
+<img width="1376" alt="e-commerce_5" src="https://user-images.githubusercontent.com/31642902/123004466-a016f380-d382-11eb-982a-3042e2a16bf1.png">
+
+### 5. Login page
+<img width="1407" alt="e-commerce_6" src="https://user-images.githubusercontent.com/31642902/123004477-a1e0b700-d382-11eb-916c-ec931016d9fa.png">
 
 
 
