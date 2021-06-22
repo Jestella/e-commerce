@@ -211,28 +211,31 @@ const SHOP_DATA = {
       {
         id: 23,
         brand: "Brand Name",
-        name: "Product A",
+        name: "Product B",
         imageUrl:
           "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211376M159179_1/burberry-beige-check-trafalgar-umbrella.jpg",
         price: 55,
       },
       {
         id: 24,
-        name: "Black & White Longsleeve",
+        brand: "Brand Name",
+        name: "Product C",
         imageUrl:
           "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211259M159506_1/alexander-mcqueen-black-and-gold-skull-folded-umbrella.jpg",
         price: 125,
       },
       {
         id: 25,
-        name: "Black & White Longsleeve",
+        brand: "Brand Name",
+        name: "Product D",
         imageUrl:
           "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211259M159507_1/alexander-mcqueen-black-and-silver-skull-folded-umbrella.jpg",
         price: 125,
       },
       {
         id: 26,
-        name: "Black & White Longsleeve",
+        brand: "Brand Name",
+        name: "Product E",
         imageUrl:
           "https://img.ssensemedia.com/images/b_white,g_center,f_auto,q_auto:best/211376M159181_1/burberry-beige-check-walking-umbrella.jpg",
         price: 105,
