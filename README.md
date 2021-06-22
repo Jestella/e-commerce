@@ -45,6 +45,7 @@ I wanted to learn and practice React by building a big application that has logi
 <li>Firebase</li>
 <li>Google Sign In Authentication</li>
 <li>Stripe API</li>
+<li>Sass</li>
 </ul>
 
 
