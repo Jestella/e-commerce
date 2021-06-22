@@ -1,9 +1,5 @@
 .collection_item {
-<<<<<<< HEAD
   width: 20vw;
-=======
-  width: 22%;
->>>>>>> 1df7f66449e1db729edf53ce66a763e4a6c1bae6
   display: flex;
   flex-direction: column;
   height: 350px;
@@ -13,12 +9,8 @@
   .image {
     width: 100%;
     height: 95%;
-<<<<<<< HEAD
     background-size: contain;
     background-repeat: no-repeat;
-=======
-    background-size: cover;
->>>>>>> 1df7f66449e1db729edf53ce66a763e4a6c1bae6
     background-position: center;
     margin-bottom: 5px;
   }
@@ -46,7 +38,6 @@
     width: 100%;
     height: 5%;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
 
     .brand {
@@ -67,14 +58,6 @@
       .price {
         font-size: 15px;
       }
-=======
-    justify-content: space-between;
-    font-size: 18px;
-
-    .name {
-      width: 90%;
-      margin-bottom: 15px;
->>>>>>> 1df7f66449e1db729edf53ce66a763e4a6c1bae6
     }
   }
 }
