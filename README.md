@@ -1,6 +1,6 @@
 # 🛍 E-commerce Platform: Style S 
 
-Style S is an E-commerce Website built with React and Redux.
+Style S is an e-commerce website built with React and Redux.
 
 # Motivation
 
