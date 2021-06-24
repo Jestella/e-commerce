@@ -4,7 +4,7 @@ Style S is an e-commerce website built with React and Redux.
 
 # Motivation
 
-I wanted to learn and practice React by building a big application that has login and payment systems. 
+I wanted to learn and practice React by building a big application that has login and payment pages. 
 
 
 # Features
