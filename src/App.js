@@ -18,21 +18,15 @@ import { selectCurrentUser } from "./redux/user/user.selectors";
 import "./App.css";
 
 class App extends React.Component {
-  constructor() {
-    super();
-
-    this.state = {
-      currentUser: null,
-    };
-  }
-
   // to sign out
   unsubscribeFromAuth = null;
   // to sotre & use user data in the app
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged((userAuth) => {
+    const { setCurrentUser } = this.props;
+
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
       if (userAuth) {
-        const userRef = createUserInfo(userAuth);
+        const userRef = await createUserInfo(userAuth);
 
         userRef.onSnapshot((snapShot) => {
           setCurrentUser({
