@@ -49,9 +49,18 @@ I wanted to learn and practice React by building a big application that has logi
 </ul>
 
 
+# Features
+<ul>
+<li>Login and register</li>
+<li>Add and remove products</li>
+<li>Payment</li>
+</ul>
+
+
+
 # What I learned
 <ul>
-<li>How to seperate components to be more reusable</li>
+<li>How to separate components to be more reusable</li>
 <li>How Redux makes React state to be more scalable</li>
 <li>Redux application data flow: One-way data flow</li>
 </ul>
@@ -59,5 +68,5 @@ I wanted to learn and practice React by building a big application that has logi
 
 # Known Issues 
 <ul>
-<li>Not responsive yet</li>
+<li>Not fully responsive yet</li>
 </ul>
