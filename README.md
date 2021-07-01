@@ -49,14 +49,6 @@ I wanted to learn and practice React by building a big application that has logi
 </ul>
 
 
-# Features
-<ul>
-<li>Login and register</li>
-<li>Add and remove products</li>
-<li>Payment</li>
-</ul>
-
-
 
 # What I learned
 <ul>
