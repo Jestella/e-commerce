@@ -6,7 +6,7 @@ import "./category.styles.scss";
 const Category = ({ title, subtitle, imageUrl, history, linkUrl, match }) => (
   <div
     className={`category`}
-    onClick={() => history.push(`${match.url}/${linkUrl}`)}
+    onClick={() => history.push(`${match.url}${linkUrl}`)}
   >
     <div
       className="background_image"
