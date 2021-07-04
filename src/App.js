@@ -11,7 +11,7 @@ import LoginPage from "./pages/login-page/login-page.component";
 import Footer from "./components/footer/footer.component";
 import CheckoutPage from "./pages/checkout-page/checkout-page.component";
 
-import { auth, createUserInfo } from "./firebase/firebase.utils";
+import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selectors";
 
@@ -26,7 +26,7 @@ class App extends React.Component {
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
       if (userAuth) {
-        const userRef = await createUserInfo(userAuth);
+        const userRef = await createUserProfileDocument(userAuth);
 
         userRef.onSnapshot((snapShot) => {
           setCurrentUser({

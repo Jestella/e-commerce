@@ -12,7 +12,7 @@ const config = {
   measurementId: "G-44N6V5R025",
 };
 
-export const createUserInfo = async (userAuth, additionalData) => {
+export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
   // firestore returns two types of objects: ref and snapshots
