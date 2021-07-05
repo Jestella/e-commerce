@@ -7,7 +7,7 @@ import { createStructuredSelector } from "reselect";
 import Header from "./components/header/header.component";
 import Home from "./pages/home/home.component";
 import Shop from "./pages/shop/shop.component";
-import LoginPage from "./pages/login-page/login-page.component";
+import Login from "./pages/login/login.component";
 import Footer from "./components/footer/footer.component";
 import CheckoutPage from "./pages/checkout-page/checkout-page.component";
 
@@ -55,11 +55,7 @@ class App extends React.Component {
             exact
             path="/e-commerce/login"
             render={() =>
-              this.props.currentUser ? (
-                <Redirect to="/e-commerce" />
-              ) : (
-                <LoginPage />
-              )
+              this.props.currentUser ? <Redirect to="/e-commerce" /> : <Login />
             }
           />
         </Switch>

@@ -1,6 +1,12 @@
-.login {
+.login_page {
   width: 850px;
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 50px auto;
+}
+
+.separator {
+  border-left: 1px solid #ddd;
+  height: 470px;
+  margin-top: 10px;
 }

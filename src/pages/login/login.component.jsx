@@ -4,11 +4,12 @@ import SignUp from "../../components/signup/signup.component";
 
 import "./login.styles.scss";
 
-const Login = () => (
-  <div className="login">
+const LoginPage = () => (
+  <div className="login_page">
     <SignIn />
+    <vl className="separator"></vl>
     <SignUp />
   </div>
 );
 
-export default Login;
+export default LoginPage;
