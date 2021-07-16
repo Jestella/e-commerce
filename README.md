@@ -19,7 +19,7 @@ I wanted to learn and practice React by building a big application that has logi
 
 
 # Demo
-##### Live Demo : https://jestella.github.io/e-commerce/ ⭐️ Please click the logo if you don't see any items from shop pages. Thanks!
+##### Live Demo : https://jestella.github.io/e-commerce/ 
 
 ### 1. Home
 <img width="1328" alt="e-commerce_1" src="https://user-images.githubusercontent.com/31642902/123004421-92616e00-d382-11eb-9af2-10674910ab7e.png">
